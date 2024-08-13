@@ -1,0 +1,71 @@
+
+/* UPPER NAV */
+.upperNav{
+    
+    height: 60px;
+    /* position: fixed; */
+    z-index: 10;
+    
+}
+.upside{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 200px 16px 180px; 
+    position: relative;
+}
+.upside h3{
+    font-size: 25px;
+    color: #0066ee;
+}
+
+.specialBtn{
+    background-color: #0066ee;
+    /* border: #fff solid 1px; */
+    border-radius: 29px;
+    margin: 0px;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 12px;
+   
+}
+
+
+/* LOWER NAV */
+
+
+.lowerNav{
+    height: 60px;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 20px; */
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    
+    opacity: 100;
+    padding: 16px auto;
+    z-index: 2;
+    opacity: 100;
+    /* visibility: hidden; */
+    transition: opacity 0.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.buttons{
+    padding: 16px 200px 16px 180px;
+    color: #0066ee;
+    /* background-color: inherit; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.lowerNav button{
+    border: #0066ee solid 1px;
+    border-radius: 29px;
+    margin: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: smaller;
+}
